@@ -1,0 +1,10 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+            xmlns:x="urn:schemas-microsoft-com:office:word"
+            xmlns="http://www.w3.org/TR/REC-html40">
+
+            <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+            <html>
+            <head>
+                <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+            </head>
+            <body><h1>Database bookstore</h1><h2>Table structure for table tblbooks</h2><table width="100%" cellspacing="1"><tr class="print-category"><th class="print">Column</th><td class="print"><strong>Type</strong></td><td class="print"><strong>Null</strong></td><td class="print"><strong>Default</strong></td></tr><tr class="print-category"><td class="print"><em><strong>BookID</strong></em></td><td class="print">int</td><td class="print">No</td><td class="print"></td></tr><tr class="print-category"><td class="print">BookTitle</td><td class="print">varchar(50)</td><td class="print">No</td><td class="print"></td></tr><tr class="print-category"><td class="print">Author</td><td class="print">varchar(20)</td><td class="print">No</td><td class="print"></td></tr><tr class="print-category"><td class="print">PublisingYear</td><td class="print">varchar(20)</td><td class="print">No</td><td class="print"></td></tr></table><h2>Dumping data for table tblbooks</h2><table width="100%" cellspacing="1"></table></body></html>

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+     
+    height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Book List */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+img {
+    max-width: 100px;
+    max-height: 150px;
+}
+
+button {
+    border-radius: 20%;
+    padding: 5px 10px;
+    background-color: #063970;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Additional Responsive Styles */
+
+/* Make the page responsive */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+/* Ensure wallpaper covers the entire screen */
+html,
+body {
+    height: 100%;
+}
+
+/* Sell Price Popup */
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+#sellPrice {
+    font-weight: bold;
+}
+
+.book-cover {
+    max-width: 100px;
+}
+
+@media (max-width: 768px) {
+    .book-cover {
+        max-width: 80px;
+    }
+} 

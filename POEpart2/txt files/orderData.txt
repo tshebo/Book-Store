@@ -1,0 +1,5 @@
+70 kilograms ,cash,postal service
+500 grams,card,takealot
+1 liter ,Paypal,postal service
+59 kilograms,cash,postal service
+150 grams ,card,takealot

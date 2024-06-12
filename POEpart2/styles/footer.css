@@ -1,0 +1,14 @@
+.btn-primary {
+    color: white;
+  }
+  
+  footer {
+    background-color: #063970;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+  }
